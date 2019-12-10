@@ -1,0 +1,100 @@
+#main {
+	width: 440px;
+	overflow: auto;
+	background: #800000;
+}
+
+.colone_div {
+	float:left;
+	margin-left:10px;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+.coltwo_div {
+	float:right;
+	margin-right:10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+p {
+  margin: 0;
+}
+/*4 tile classes for text*/
+.tile_1 {
+	height: 190px;
+	width: 190px;
+	padding: 40px 10px 0px 10px;
+	text-align:center;
+	font-size:24px;
+	font-family: 'Arima Madurai', cursive;
+	color:white;
+	background-image:radial-gradient(#ff5050,#ffb3b3);
+}
+
+.tile_2 {
+	height:190px;
+	width:190px;
+	padding:40px 10px 0px 10px;
+	text-align:center;
+	font-size:24px;
+	font-family: 'Catamaran', sans-serif;
+	color:black;
+	background:#ecd9c6;
+}
+
+.tile_3 {
+	height:190px;
+	width:190px;
+	padding:40px 10px 0px 10px;
+	font-size:24px;
+	text-align:center;
+	font-family:'Catamaran', sans-serif;
+	color:white;
+	background:#ff5050;
+}
+
+.tile_4 {
+	height:190px;
+	width:190px;
+	padding:40px 10px 0px 10px;
+	text-align:center;
+	font-size:24px;
+	font-family:'Arima Madurai', cursive;
+	color:black;
+	background:#5cd6d6;
+}
+/*6 classes for text emphasis combo variations.*/
+.emp-1 {
+	font-style:italic;
+	font-weight:bold;
+	letter-spacing:-1px;
+	color:black;
+}
+
+.emp-2 {
+	text-transform:uppercase;
+	letter-spacing: -1px;
+	font-weight:bolder;
+	text-decoration:underline;
+}
+
+.emp-3 {
+	font-variant:small-caps;
+	font-size:18px;
+	line-height:95%
+}
+
+.emp-4 {
+	font-size:18px;
+}
+
+.emp-5 {
+	text-decoration:line-through;
+	color:white;
+}
+
+.emp-6 {
+	word-spacing: 3px;
+	line-height:200%;
+}
